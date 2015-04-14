@@ -1,0 +1,116 @@
+<section>
+	<section data-markdown>
+		## Decremento
+	</section>
+
+	<section data-markdown>
+		<script type="text/template">
+		## Decremento
+
+		__Decremento(--)__: Decrementa el valor de la variable en 1.
+
+		<!-- .element: class="fragment" -->
+		Las expresiones i-- o --i son equivalentes a la expresión i -= 1 y por lo tanto también son equivalentes a la expresión i = i - 1.
+		</script>
+	</section>
+
+	<section data-markdown>
+		## Decremento
+
+		El operador -- se puede utilizar como un operador __prefijo__ (--i) o __postfijo__ (i--), y dependiendo de la posición donde se ubique entonces la asignación se hace antes o después del incremento.
+	</section>
+
+	<section data-markdown>
+		## Predecremento
+
+		__--x__: La variable x se decrementa en 1 y luego se retorna el nuevo valor de la variable.
+	</section>
+
+	<section data-markdown>
+		## Predecremento: Ejemplo
+
+```cpp
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+	int x = 2;
+	int y = --x;
+	cout << x << endl;
+	cout << y << endl;
+
+	return 0;
+}
+```
+	</section>
+
+	<section data-markdown>
+		## Predecremento: Ejemplo
+
+```cpp
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+	int x = 2;
+	x -= 1;
+	int y = x;
+	cout << x << endl;
+	cout << y << endl;
+
+	return 0;
+}
+```
+	</section>
+
+	<section data-markdown>
+		## Postdecremento
+
+		__x--__: Retorna el actual valor de la variable x y luego decrementa su valor en 1.
+	</section>
+
+	<section data-markdown>
+		## Postdecremento: Ejemplo
+
+```cpp
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+	int x = 2;
+	int y = x--;
+	cout << x << endl;
+	cout << y << endl;
+
+	return 0;
+}
+```
+	</section>
+
+	<section data-markdown>
+		## Postdecremento: Ejemplo
+
+```cpp
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+	int x = 2;
+	int y = x;
+	x -= 1;
+	cout << x << endl;
+	cout << y << endl;
+
+	return 0;
+}
+```
+	</section>
+</section>

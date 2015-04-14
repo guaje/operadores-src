@@ -1,0 +1,102 @@
+<section>
+	<section data-markdown>
+		## Operadores sobre Bits
+	</section>
+
+	<section>
+		<h2>Representación Binaria</h2>
+		
+		<table>
+			<thead>
+				<tr>
+					<th colspan="4" style="text-align:center">60</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">\(2^7 = 128\)</th>
+					<td style="text-align:center">\(2^6 = 64\)</th>
+					<td style="text-align:center">\(2^5 = 32\)</th>
+					<td style="text-align:center">\(2^4 = 16\)</th>
+				</tr>
+				<tr>
+					<td style="text-align:center">0</th>
+					<td style="text-align:center">0</th>
+					<td style="text-align:center">1</th>
+					<td style="text-align:center">1</th>
+				</tr>
+				<tr>
+					<td style="text-align:center">\(2^3 = 8\)</th>
+					<td style="text-align:center">\(2^2 = 4\)</th>
+					<td style="text-align:center">\(2^1 = 2\)</th>
+					<td style="text-align:center">\(2^0 = 1\)</th>
+				</tr>
+				<tr>
+					<td style="text-align:center">1</th>
+					<td style="text-align:center">1</th>
+					<td style="text-align:center">0</th>
+					<td style="text-align:center">0</th>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section>
+		<h2>Representación Binaria</h2>
+		
+		<table>
+			<thead>
+				<tr>
+					<th colspan="4" style="text-align:center">13</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="text-align:center">\(2^7 = 128\)</th>
+					<td style="text-align:center">\(2^6 = 64\)</th>
+					<td style="text-align:center">\(2^5 = 32\)</th>
+					<td style="text-align:center">\(2^4 = 16\)</th>
+				</tr>
+				<tr>
+					<td style="text-align:center">0</th>
+					<td style="text-align:center">0</th>
+					<td style="text-align:center">0</th>
+					<td style="text-align:center">0</th>
+				</tr>
+				<tr>
+					<td style="text-align:center">\(2^3 = 8\)</th>
+					<td style="text-align:center">\(2^2 = 4\)</th>
+					<td style="text-align:center">\(2^1 = 2\)</th>
+					<td style="text-align:center">\(2^0 = 1\)</th>
+				</tr>
+				<tr>
+					<td style="text-align:center">1</th>
+					<td style="text-align:center">1</th>
+					<td style="text-align:center">0</th>
+					<td style="text-align:center">1</th>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section data-markdown>
+		<script type="text/template">
+		## Operadores sobre Bits
+
+		- __AND(&)__: De la operación 60(0011110) & 13(00001101) se obtiene 12(00001100).
+		- <!-- .element: class="fragment" -->
+		__OR(|)__: De la operación 60(00111100) | 13(00001101) se obtiene 61(00111101).
+		- <!-- .element: class="fragment" -->
+		__Complemento(~)__: De la operación ~60(00111100) se obtiene 195(11000011) y de la operación ~13(00001101) se obtiene 242(11110010).
+		</script>
+	</section>
+	<section data-markdown>
+		<script type="text/template">
+		## Operadores sobre Bits
+
+		- __Desplazamiento a la Izquierda(<<)__: De la operación 60(00111100) << 2 se obtiene 140(11110000) y de la operación 13(00001101) << 2 se obtiene 52(00110100).
+		- <!-- .element: class="fragment" -->
+		__Desplazamiento a la Derecha(>>)__: De la operación 60(00111100) >> 2 se obtiene 15(00001111) y de la operación 13(00001101) >> 2 se obtiene 142(00000011).
+		</script>
+	</section>
+</section>

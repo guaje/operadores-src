@@ -1,0 +1,70 @@
+<section>
+	<section data-markdown>
+		## Relacionales
+	</section>
+
+	<section>
+		<h2>Operadores Relacionales</h2>
+
+		<ul>
+			<li><b>Mayor que</b>: > (>).</li>
+			<li class="fragment"><b>Menor que</b>: < (<).</li>
+			<li class="fragment"><b>Mayor o igual que</b>: \(\geq\) (>=).</li>
+			<li class="fragment"><b>Menor o igual que</b>: \(\leq\) (<=).</li>
+			<li class="fragment"><b>Igualdad</b>: = (==).</li>
+			<li class="fragment">
+				<b>Desigualdad</b>: \(\neq\).
+
+				<table>
+					<thead>
+						<tr>
+							<th style="text-align:center">C++</th>
+							<th style="text-align:center">Python</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:center">!=</td>
+							<td style="text-align:center">
+								!=
+								<br>
+								<>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</li>
+		</ul>
+	</section>
+
+	<section data-markdown>
+		## Operadores Relacionales: Ejemplo
+
+```cpp
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+	int a = 0.5;
+	bool f = (0 < a && a <= 1);
+	cout << a << endl;
+	cout << f << endl;
+
+	return 0;
+}
+```
+	</section>
+
+	<section data-markdown>
+		## Operadores Relacionales: Ejemplo
+
+```python
+a = 0.5
+f = (0 < a and a <= 1)
+print(a)
+print(f)
+```
+	</section>
+</section>
